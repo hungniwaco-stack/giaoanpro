@@ -7,7 +7,6 @@ export interface AppInfo {
   status: "live" | "soon";
 }
 
-// ponytail: cập nhật href sang subdomain thật khi DNS đã trỏ xong.
 export const APPS: AppInfo[] = [
   {
     slug: "cap1",
@@ -15,7 +14,7 @@ export const APPS: AppInfo[] = [
     grades: "Tiểu học · Lớp 1–5",
     description: "Soạn giáo án chuẩn chương trình Tiểu học, xuất Word/PowerPoint ngay.",
     href: "https://cap1.giaoanpro.com",
-    status: "soon",
+    status: "live",
   },
   {
     slug: "cap2",
@@ -31,6 +30,6 @@ export const APPS: AppInfo[] = [
     grades: "THPT · Lớp 10–12",
     description: "Soạn giáo án chuẩn chương trình THPT, xuất Word/PowerPoint ngay.",
     href: "https://cap3.giaoanpro.com",
-    status: "soon",
+    status: "live",
   },
 ];
