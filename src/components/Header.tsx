@@ -8,7 +8,7 @@ export default function Header() {
           ✎ Giáo Án Pro
         </Link>
         <nav className="flex items-center gap-6 text-sm text-ink-muted">
-          <Link href="/#apps" className="hover:text-pine-dark">3 Web App</Link>
+          <Link href="/#apps" className="hover:text-pine-dark">Giáo án 3 cấp</Link>
           <Link href="/blog" className="hover:text-pine-dark">Blog & Prompt miễn phí</Link>
         </nav>
       </div>

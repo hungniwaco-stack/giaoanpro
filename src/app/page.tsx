@@ -21,7 +21,7 @@ export default function Home() {
         </section>
 
         <section id="apps" className="mx-auto max-w-5xl px-4 pb-16">
-          <h2 className="font-display text-2xl font-semibold text-ink">3 Web App theo cấp học</h2>
+          <h2 className="font-display text-2xl font-semibold text-ink">Giáo án 3 cấp</h2>
           <div className="mt-6 grid gap-5 sm:grid-cols-3">
             {APPS.map((app) => (
               <div
