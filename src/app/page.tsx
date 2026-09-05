@@ -12,12 +12,61 @@ export default function Home() {
       <main className="flex-1">
         <section className="mx-auto max-w-3xl px-4 py-16 text-center sm:py-24">
           <h1 className="font-display text-4xl font-bold leading-tight text-ink sm:text-5xl">
-            AI soạn giáo án, đúng chuẩn, xong trong vài giây
+            Thức đến 12h đêm soạn giáo án — hay để AI làm xong trong 30 giây?
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base text-ink-muted">
-            3 công cụ riêng cho Tiểu học, THCS, THPT — chọn lớp, chọn bài, bấm nút, nhận ngay
-            file Word/PowerPoint đúng khung Công văn 5512.
+            3 công cụ riêng cho Tiểu học (chuẩn Công văn 2345), THCS &amp; THPT (chuẩn Công văn 5512)
+            — chọn lớp, chọn bài, bấm nút, nhận ngay file Word/PowerPoint.
           </p>
+          <p className="mt-3 text-sm font-medium text-pine-dark">
+            Dùng thử miễn phí — không cần thẻ tín dụng, không cần đăng ký.
+          </p>
+        </section>
+
+        <section className="mx-auto max-w-5xl px-4 pb-16">
+          <div className="flex items-center justify-between">
+            <h2 className="flex items-center gap-2 font-display text-2xl font-semibold text-ink">
+              <span aria-hidden="true">🎁</span> Quà tặng miễn phí
+            </h2>
+            <Link href="/blog" className="text-sm font-medium text-pine hover:text-pine-dark">
+              Xem tất cả →
+            </Link>
+          </div>
+          <p className="mt-1 text-sm text-ink-muted">
+            Prompt và tài liệu soạn bài dùng ngay, không thu phí — tải về trước khi thử app bên dưới.
+          </p>
+
+          <div className="mt-6 grid gap-5 sm:grid-cols-2">
+            {POSTS.slice(0, 2).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="rounded-2xl border-2 border-seal/30 bg-gradient-to-b from-sand to-paper-card p-6 shadow-md ring-4 ring-seal/5 transition hover:border-seal/50 hover:shadow-lg"
+              >
+                <p className="text-xs text-ink-muted/70">{post.date}</p>
+                <h3 className="mt-1 font-display text-lg font-semibold text-ink">{post.title}</h3>
+                <p className="mt-2 text-sm text-ink-muted">{post.excerpt}</p>
+                <span className="mt-3 inline-block text-sm font-semibold text-seal">Nhận miễn phí →</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-5xl px-4 pb-16">
+          <div className="grid gap-5 sm:grid-cols-3">
+            <div className="rounded-2xl border border-ink/10 bg-paper-card p-5 text-center">
+              <span className="text-2xl" aria-hidden="true">😴</span>
+              <p className="mt-2 text-sm text-ink-muted">Thức khuya soạn bài mỗi tối, hôm sau vẫn phải lên lớp sớm</p>
+            </div>
+            <div className="rounded-2xl border border-ink/10 bg-paper-card p-5 text-center">
+              <span className="text-2xl" aria-hidden="true">📄</span>
+              <p className="mt-2 text-sm text-ink-muted">Soạn sai khung Công văn, bị tổ chuyên môn nhắc chỉnh lại</p>
+            </div>
+            <div className="rounded-2xl border border-ink/10 bg-paper-card p-5 text-center">
+              <span className="text-2xl" aria-hidden="true">⏰</span>
+              <p className="mt-2 text-sm text-ink-muted">Deadline nộp giáo án gấp, không kịp trau chuốt nội dung</p>
+            </div>
+          </div>
         </section>
 
         <section id="apps" className="mx-auto max-w-5xl px-4 pb-16">
@@ -52,32 +101,6 @@ export default function Home() {
                   </span>
                 )}
               </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-5xl px-4 pb-20">
-          <div className="flex items-center justify-between">
-            <h2 className="font-display text-2xl font-semibold text-ink">Blog & Prompt miễn phí</h2>
-            <Link href="/blog" className="text-sm font-medium text-pine hover:text-pine-dark">
-              Xem tất cả →
-            </Link>
-          </div>
-          <p className="mt-1 text-sm text-ink-muted">
-            Chia sẻ prompt, tool và ứng dụng AI vào giáo dục — hoàn toàn miễn phí.
-          </p>
-
-          <div className="mt-6 grid gap-5 sm:grid-cols-2">
-            {POSTS.slice(0, 2).map((post) => (
-              <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="rounded-2xl border border-ink/10 bg-paper-card p-6 shadow-sm hover:border-pine/40"
-              >
-                <p className="text-xs text-ink-muted/70">{post.date}</p>
-                <h3 className="mt-1 font-display text-lg font-semibold text-ink">{post.title}</h3>
-                <p className="mt-2 text-sm text-ink-muted">{post.excerpt}</p>
-              </Link>
             ))}
           </div>
         </section>
