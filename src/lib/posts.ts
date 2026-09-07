@@ -1,8 +1,11 @@
+export type PostCategory = "blog" | "mien-phi";
+
 export interface Post {
   slug: string;
   title: string;
   excerpt: string;
   date: string;
+  category: PostCategory;
   content: string[];
 }
 
@@ -12,6 +15,7 @@ export const POSTS: Post[] = [
     title: "Thầy cô hay Minh sư? AI giúp được vai nào của giáo viên, và vai nào thì không",
     excerpt: "Có một cách phân biệt rất rõ giữa 'thầy cô' và 'minh sư' — hai vai trò tưởng giống mà khác hẳn. Ranh giới đó cũng chính là ranh giới AI không bao giờ vượt qua được.",
     date: "2026-09-07",
+    category: "blog",
     content: [
       "Có một cách phân biệt vai trò khá thú vị trong nghề giáo, chia thành hai vai: Thầy cô và Minh sư. Nghe qua tưởng giống nhau, nhưng ranh giới giữa hai vai này lại chính là ranh giới mà AI không bao giờ vượt qua được.",
       "\"Thầy cô\" không chỉ là người biết dạy, mà là người \"làm được, tổng kết được, truyền đạt được, giúp người khác làm được\". Một giáo viên giỏi môn học chưa chắc đã tròn vai này, nếu học sinh nghe xong vẫn không tự giải được bài tương tự. Đây là chỗ AI giúp thật: soạn nội dung rõ ràng, đúng khung chương trình, để giáo viên có bản nháp tốt mà truyền đạt lại theo cách của mình — còn việc truyền đạt sao cho học sinh THỰC SỰ làm được thì AI không thay được, vì nó cần đọc ra học sinh cụ thể đang vướng ở đâu.",
@@ -25,6 +29,7 @@ export const POSTS: Post[] = [
     title: "5 prompt AI giúp giáo viên soạn bài nhanh hơn",
     excerpt: "Những câu lệnh cụ thể, copy-dùng-ngay để AI hỗ trợ soạn giáo án, ra đề, viết nhận xét học bạ — không cần biết code.",
     date: "2026-08-31",
+    category: "mien-phi",
     content: [
       "AI tạo ra nội dung tốt hay dở phụ thuộc rất nhiều vào cách bạn hỏi. Dưới đây là 5 prompt bạn có thể copy và chỉnh lại tên bài, môn học cho phù hợp.",
       "1. Soạn mục tiêu bài học: \"Viết mục tiêu bài học cho bài [Tên bài], môn [Môn học], lớp [X], chia rõ 3 nhóm Kiến thức — Năng lực — Phẩm chất theo chương trình GDPT 2018, mỗi nhóm 3 gạch đầu dòng cụ thể, đo lường được.\"",
@@ -40,6 +45,7 @@ export const POSTS: Post[] = [
     title: "AI có thể thay giáo viên không? Góc nhìn thực tế",
     excerpt: "AI soạn giáo án nhanh, nhưng có 3 việc không AI nào làm thay được. Đây là góc nhìn thẳng, không thổi phồng công nghệ.",
     date: "2026-08-31",
+    category: "blog",
     content: [
       "Câu trả lời ngắn gọn: không. Nhưng AI có thể gánh bớt phần việc tốn thời gian nhất — soạn thảo, định dạng, ra đề — để giáo viên dành thời gian cho phần AI không làm được.",
       "AI làm tốt: soạn nội dung theo khung có sẵn (như Công văn 5512), sinh nhiều phương án để chọn lọc, xử lý việc lặp lại (ra nhiều đề cùng dạng, nhiều bài tập cùng cấu trúc).",

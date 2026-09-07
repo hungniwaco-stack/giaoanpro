@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { href: "/#apps", label: "Giáo án 3 cấp" },
-  { href: "/blog", label: "Blog & Prompt miễn phí" },
+  { href: "/blog", label: "Blog" },
+  { href: "/mien-phi", label: "Miễn phí" },
   { href: "/danh-muc-sgk", label: "Danh mục SGK" },
 ];
 

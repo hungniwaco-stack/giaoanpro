@@ -39,7 +39,7 @@ export default function Home() {
             <h2 className="flex items-center gap-2 font-display text-2xl font-semibold text-ink">
               <span aria-hidden="true">🎁</span> Quà tặng miễn phí
             </h2>
-            <Link href="/blog" className="text-sm font-medium text-pine hover:text-pine-dark">
+            <Link href="/mien-phi" className="text-sm font-medium text-pine hover:text-pine-dark">
               Xem tất cả →
             </Link>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
           </p>
 
           <div className="mt-6 grid gap-5 sm:grid-cols-2">
-            {POSTS.slice(0, 2).map((post) => (
+            {POSTS.filter((p) => p.category === "mien-phi").slice(0, 2).map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
