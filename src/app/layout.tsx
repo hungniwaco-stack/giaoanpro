@@ -35,6 +35,16 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Giáo Án Pro",
+  url: SITE_URL,
+  founder: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
+  description:
+    "Bộ công cụ AI soạn giáo án cho giáo viên Tiểu học, THCS, THPT tại Việt Nam, chuẩn Công văn 2345 và 5512.",
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -42,6 +52,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${literata.variable} ${beVietnam.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper font-sans text-ink">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}

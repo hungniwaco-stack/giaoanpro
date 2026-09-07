@@ -1,0 +1,25 @@
+# Giáo Án Pro
+
+> Bộ công cụ AI soạn giáo án, ra đề thi, tạo bài tập cho giáo viên Tiểu học, THCS, THPT tại Việt Nam, chuẩn Công văn 2345 (Tiểu học) và Công văn 5512 (THCS, THPT). Nội dung do AI tạo ra là bản nháp hỗ trợ, giáo viên cần kiểm tra và điều chỉnh trước khi sử dụng chính thức — không thay thế đánh giá chuyên môn của giáo viên.
+
+## Sản phẩm
+
+- [Giáo Án Pro — Cấp 1 (Tiểu học)](https://cap1.giaoanpro.com): Lớp 1–5, chuẩn Công văn 2345.
+- [Giáo Án Pro — Cấp 2 (THCS)](https://cap2.giaoanpro.com): Lớp 6–9, chuẩn Công văn 5512.
+- [Giáo Án Pro — Cấp 3 (THPT)](https://cap3.giaoanpro.com): Lớp 10–12, chuẩn Công văn 5512.
+
+Mỗi công cụ hỗ trợ soạn giáo án, ra đề kiểm tra, tạo bài tập, và trò chuyện AI; xuất file Word và PowerPoint. Có gói dùng thử miễn phí, gói trả phí theo tháng/6 tháng/năm thanh toán qua VietQR.
+
+## Tài nguyên miễn phí
+
+- [Danh mục SGK](https://giaoanpro.com/danh-muc-sgk): Sách giáo khoa Tiểu học, THCS, THPT miễn phí.
+- [Blog](https://giaoanpro.com/blog): Bài viết về ứng dụng AI trong giáo dục, prompt cho giáo viên.
+
+## Thông tin pháp lý
+
+- [Điều khoản dịch vụ](https://giaoanpro.com/dieu-khoan)
+- [Chính sách hoàn tiền](https://giaoanpro.com/chinh-sach-hoan-tien)
+
+## Liên hệ
+
+Người sáng lập: Nguyễn Hữu Hùng. Email: hungniwaco@gmail.com. Điện thoại/Zalo: 0944 851719.

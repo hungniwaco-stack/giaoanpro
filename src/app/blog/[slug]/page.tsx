@@ -28,8 +28,24 @@ export default async function BlogPostPage({
   const post = POSTS.find((p) => p.slug === slug);
   if (!post) notFound();
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
+    publisher: { "@type": "Organization", name: "Giáo Án Pro" },
+    mainEntityOfPage: `https://giaoanpro.com/blog/${post.slug}`,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Header />
       <main id="main-content" className="flex-1">
         <article className="mx-auto max-w-2xl px-4 py-16">
