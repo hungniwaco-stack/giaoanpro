@@ -11,6 +11,16 @@ export default function Home() {
       <Header />
 
       <main id="main-content" className="flex-1">
+        <section className="bg-pine px-4 py-6 text-center sm:py-8">
+          <p className="mx-auto max-w-3xl font-display text-xl font-extrabold uppercase leading-snug tracking-tight text-paper sm:text-3xl md:text-4xl">
+            <span className="block">Soạn Giáo Án - Thiết Kế Đề Thi</span>
+            <span className="block">Tạo Bài Tập - Trò Chuyện AI</span>
+          </p>
+          <p className="mt-2 text-base font-bold uppercase tracking-widest text-sand sm:text-lg">
+            Tiểu học - THCS - THPT
+          </p>
+        </section>
+
         <section className="mx-auto max-w-3xl px-4 py-16 text-center sm:py-24">
           <h1 className="font-display text-4xl font-bold leading-tight text-ink sm:text-5xl">
             Thức đến 12h đêm soạn giáo án — hay để AI làm xong trong 30 giây?
