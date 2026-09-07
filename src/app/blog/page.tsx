@@ -10,7 +10,7 @@ export default function BlogListPage() {
   return (
     <>
       <Header />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         <section className="mx-auto max-w-3xl px-4 py-16">
           <h1 className="font-display text-3xl font-bold text-ink">Blog & Prompt miễn phí</h1>
           <p className="mt-2 text-ink-muted">
@@ -24,7 +24,7 @@ export default function BlogListPage() {
                 href={`/blog/${post.slug}`}
                 className="block rounded-2xl border border-ink/10 bg-paper-card p-6 shadow-sm hover:border-pine/40"
               >
-                <p className="text-xs text-ink-muted/70">{post.date}</p>
+                <p className="text-xs text-ink-muted">{post.date}</p>
                 <h2 className="mt-1 font-display text-xl font-semibold text-ink">{post.title}</h2>
                 <p className="mt-2 text-sm text-ink-muted">{post.excerpt}</p>
               </Link>
