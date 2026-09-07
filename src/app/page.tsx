@@ -108,7 +108,7 @@ export default function Home() {
         </section>
 
         <section className="mx-auto max-w-5xl px-4 pb-16">
-          <h2 className="font-display text-2xl font-semibold text-ink">Giá chỉ từ 99.000đ/tháng</h2>
+          <h2 className="font-display text-2xl font-semibold text-ink">Giá chỉ từ {PLANS[0].price}/tháng</h2>
           <p className="mt-1 text-sm text-ink-muted">
             Áp dụng chung cho cả 3 cấp — dùng thử miễn phí trước, chỉ trả phí khi cần dùng lâu dài.
           </p>
