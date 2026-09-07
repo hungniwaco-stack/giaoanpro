@@ -52,7 +52,9 @@ export default async function BlogPostPage({
           <Link href="/blog" className="text-sm text-pine hover:text-pine-dark">
             ← Tất cả bài viết
           </Link>
-          <p className="mt-4 text-xs text-ink-muted">{post.date}</p>
+          <p className="mt-4 text-xs text-ink-muted">
+            {post.date} · Tác giả: Nguyễn Hữu Hùng
+          </p>
           <h1 className="mt-1 font-display text-3xl font-bold text-ink">{post.title}</h1>
           <div className="mt-6 space-y-4 text-ink-muted leading-relaxed">
             {post.content.map((para, i) => (
