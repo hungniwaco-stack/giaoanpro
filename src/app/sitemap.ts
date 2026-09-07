@@ -4,7 +4,7 @@ import { POSTS } from "@/lib/posts";
 const SITE_URL = "https://giaoanpro.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/blog"].map((path) => ({
+  const staticRoutes = ["", "/blog", "/dieu-khoan", "/chinh-sach-hoan-tien"].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: new Date(),
   }));

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SUPPORT_EMAIL = "hungniwaco@gmail.com";
 const SUPPORT_PHONE = "0944 851719";
 const ZALO_LINK = "https://zalo.me/0944851719";
@@ -12,6 +14,11 @@ export default function Footer() {
         <a href={ZALO_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-pine-dark">{SUPPORT_PHONE}</a>
         <span className="mx-2">·</span>
         <a href={`mailto:${SUPPORT_EMAIL}`} className="hover:text-pine-dark">{SUPPORT_EMAIL}</a>
+      </p>
+      <p className="mt-2">
+        <Link href="/dieu-khoan" className="hover:text-pine-dark">Điều khoản dịch vụ</Link>
+        <span className="mx-2">·</span>
+        <Link href="/chinh-sach-hoan-tien" className="hover:text-pine-dark">Chính sách hoàn tiền</Link>
       </p>
     </footer>
   );
