@@ -43,6 +43,7 @@ const organizationJsonLd = {
   founder: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
   description:
     "Bộ công cụ AI soạn giáo án cho giáo viên Tiểu học, THCS, THPT tại Việt Nam, chuẩn Công văn 2345 và 5512.",
+  sameAs: ["https://www.facebook.com/profile.php?id=61594446321360"],
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
