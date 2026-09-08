@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PostCard from "@/components/PostCard";
 import { POSTS } from "@/lib/posts";
 
 export const metadata: Metadata = { title: "Miễn phí: Tool, Prompt, Chatbot — Giáo Án Pro" };
@@ -24,15 +24,7 @@ export default function MienPhiListPage() {
           ) : (
             <div className="mt-10 space-y-6">
               {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  className="block rounded-2xl border border-ink/10 bg-paper-card p-6 shadow-sm hover:border-pine/40"
-                >
-                  <p className="text-xs text-ink-muted">{post.date}</p>
-                  <h2 className="mt-1 font-display text-xl font-semibold text-ink">{post.title}</h2>
-                  <p className="mt-2 text-sm text-ink-muted">{post.excerpt}</p>
-                </Link>
+                <PostCard key={post.slug} post={post} />
               ))}
             </div>
           )}
