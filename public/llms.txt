@@ -13,6 +13,7 @@ Mỗi công cụ hỗ trợ soạn giáo án, ra đề kiểm tra, tạo bài t�
 ## Tài nguyên miễn phí
 
 - [Danh mục SGK](https://giaoanpro.com/danh-muc-sgk): Sách giáo khoa Tiểu học, THCS, THPT miễn phí.
+- [Trợ lý Học tập](https://giaoanpro.com/tro-ly-hoc-tap): Trợ lý AI (Gemini Gem) theo lớp, theo môn, hỗ trợ học sinh tự học miễn phí.
 - [Blog](https://giaoanpro.com/blog): Bài viết về ứng dụng AI trong giáo dục, prompt cho giáo viên.
 
 ## Thông tin pháp lý

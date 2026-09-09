@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { href: "/blog", label: "Blog" },
   { href: "/mien-phi", label: "Miễn phí" },
   { href: "/danh-muc-sgk", label: "Danh mục SGK" },
+  { href: "/tro-ly-hoc-tap", label: "Trợ lý Học tập" },
 ];
 
 export default function Header() {
