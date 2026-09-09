@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TrialCta from "@/components/TrialCta";
 import { APPS } from "@/lib/apps";
 import { POSTS } from "@/lib/posts";
 import { PLANS } from "@/lib/pricing";
@@ -101,12 +102,11 @@ export default function Home() {
                 <p className="mt-2 flex-1 text-sm text-ink-muted">{app.description}</p>
 
                 {app.status === "live" ? (
-                  <a
+                  <TrialCta
                     href={app.href}
+                    appSlug={app.slug}
                     className="mt-5 rounded-xl bg-pine py-2.5 text-center text-sm font-semibold text-paper hover:bg-pine-dark"
-                  >
-                    Dùng thử ngay →
-                  </a>
+                  />
                 ) : (
                   <span className="mt-5 rounded-xl border border-ink/10 py-2.5 text-center text-sm font-medium text-ink-muted/60">
                     Đang phát triển
