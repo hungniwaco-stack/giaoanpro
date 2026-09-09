@@ -26,7 +26,7 @@ export default function TroLyHocTapPage() {
                 <h2 className="font-display text-xl font-semibold text-ink">{cap.capLabel}</h2>
                 {cap.subjects.map((subject) => (
                   <div key={subject.subjectLabel} className="mt-4">
-                    <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-muted">
+                    <h3 className="text-sm font-bold uppercase tracking-wide text-ink-muted">
                       {subject.subjectLabel}
                     </h3>
                     <div className="mt-3 grid gap-3 sm:grid-cols-2">
