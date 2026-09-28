@@ -134,7 +134,7 @@ export default function Home() {
         <section className="mx-auto max-w-5xl px-4 pb-16">
           <h2 className="font-display text-2xl font-semibold text-ink">Giá chỉ từ {PLANS[0].price}/tháng</h2>
           <p className="mt-1 text-sm text-ink-muted">
-            Áp dụng chung cho cả 3 cấp — dùng thử miễn phí trước, chỉ trả phí khi cần dùng lâu dài.
+            Giá như nhau ở cả 3 cấp, gói kích hoạt riêng cho từng cấp — dùng thử miễn phí trước, chỉ trả phí khi cần dùng lâu dài.
           </p>
           <div className="mt-6 grid gap-5 sm:grid-cols-3">
             {PLANS.map((plan) => (
