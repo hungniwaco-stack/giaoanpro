@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { href: "/#apps", label: "Giáo án 3 cấp" },
+  { href: "/#faq", label: "Hỏi đáp" },
   { href: "/blog", label: "Blog" },
   { href: "/mien-phi", label: "Miễn phí" },
   { href: "/danh-muc-sgk", label: "Danh mục SGK" },
@@ -29,7 +30,7 @@ export default function Header() {
           </Link>
           <nav className="flex items-center gap-2 text-sm">
             {NAV_LINKS.map((link) => {
-              const active = link.href !== "/#apps" && pathname.startsWith(link.href);
+              const active = !link.href.startsWith("/#") && pathname.startsWith(link.href);
               return (
                 <Link
                   key={link.href}

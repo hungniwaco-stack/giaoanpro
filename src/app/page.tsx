@@ -2,13 +2,27 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TrialCta from "@/components/TrialCta";
+import FaqSection from "@/components/FaqSection";
 import { APPS } from "@/lib/apps";
+import { FAQS } from "@/lib/faq";
 import { POSTS } from "@/lib/posts";
 import { PLANS } from "@/lib/pricing";
+
+// Cùng nội dung với mục hỏi đáp hiển thị bên dưới — giúp Google và các công cụ AI trích dẫn đúng câu trả lời.
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQS.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
 
 export default function Home() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Header />
 
       <main id="main-content" className="flex-1">
@@ -141,6 +155,8 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <FaqSection />
       </main>
 
       <Footer />
