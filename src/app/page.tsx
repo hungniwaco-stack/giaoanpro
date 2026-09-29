@@ -43,9 +43,16 @@ export default function Home() {
           <h1 className="font-display text-4xl font-bold leading-tight text-ink sm:text-5xl">
             Thức đến 12h đêm soạn giáo án — hay để AI làm xong trong 30 giây?
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base text-ink-muted">
-            3 công cụ riêng cho Tiểu học (chuẩn Công văn 2345), THCS &amp; THPT (chuẩn Công văn 5512)
-            — chọn lớp, chọn bài, bấm nút, nhận ngay file Word/PowerPoint.
+          <p className="mx-auto mt-4 max-w-2xl text-base text-ink-muted">
+            Giáo Án Pro là bộ 3 công cụ AI soạn giáo án dành cho giáo viên Việt Nam: Cấp 1 cho
+            Tiểu học (chuẩn Công văn 2345), Cấp 2 và Cấp 3 cho THCS, THPT (chuẩn Công văn 5512).
+            Bạn chọn khối lớp, môn học, nhập tên bài — AI soạn ngay giáo án đúng cấu trúc Công
+            văn, bám sát sách Kết nối tri thức, có sẵn dòng ngày soạn, số tiết và bảng chữ ký
+            duyệt, xuất thẳng file Word và PowerPoint chỉ trong vài giây. Nếu Sở hoặc trường bạn
+            có công văn, phụ lục riêng, bạn đính kèm để AI soạn bám sát yêu cầu đó. Ngoài soạn
+            giáo án, mỗi công cụ còn thiết kế đề thi, tạo bài tập luyện tập và trò chuyện AI để
+            hỏi đáp chuyên môn. Không cần tạo tài khoản, dùng thử miễn phí ngay trên trình duyệt,
+            không cần thẻ tín dụng.
           </p>
           <p className="mt-3 text-sm font-medium text-pine-dark">
             Dùng thử miễn phí — không cần thẻ tín dụng, không cần đăng ký.
