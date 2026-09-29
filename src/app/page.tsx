@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,6 +8,8 @@ import { APPS } from "@/lib/apps";
 import { FAQS } from "@/lib/faq";
 import { POSTS } from "@/lib/posts";
 import { PLANS } from "@/lib/pricing";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 // Cùng nội dung với mục hỏi đáp hiển thị bên dưới — giúp Google và các công cụ AI trích dẫn đúng câu trả lời.
 const faqJsonLd = {

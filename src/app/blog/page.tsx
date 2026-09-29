@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import PostCard from "@/components/PostCard";
 import { POSTS } from "@/lib/posts";
 
-export const metadata: Metadata = { title: "Blog — Giáo Án Pro" };
+export const metadata: Metadata = { title: "Blog — Giáo Án Pro", alternates: { canonical: "/blog" } };
 
 export default function BlogListPage() {
   const posts = POSTS.filter((p) => p.category === "blog");

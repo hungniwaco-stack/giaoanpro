@@ -16,7 +16,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = POSTS.find((p) => p.slug === slug);
-  return { title: post ? `${post.title} — Giáo Án Pro` : "Bài viết — Giáo Án Pro" };
+  return {
+    title: post ? `${post.title} — Giáo Án Pro` : "Bài viết — Giáo Án Pro",
+    alternates: { canonical: `/blog/${slug}` },
+  };
 }
 
 export default async function BlogPostPage({
@@ -37,7 +40,7 @@ export default async function BlogPostPage({
     dateModified: post.date,
     author: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
     publisher: { "@type": "Organization", name: "Giáo Án Pro" },
-    mainEntityOfPage: `https://giaoanpro.com/blog/${post.slug}`,
+    mainEntityOfPage: `https://www.giaoanpro.com/blog/${post.slug}`,
   };
 
   return (

@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = { title: "Chính sách hoàn tiền — Giáo Án Pro" };
+export const metadata: Metadata = {
+  title: "Chính sách hoàn tiền — Giáo Án Pro",
+  alternates: { canonical: "/chinh-sach-hoan-tien" },
+};
 
 export default function RefundPolicyPage() {
   return (

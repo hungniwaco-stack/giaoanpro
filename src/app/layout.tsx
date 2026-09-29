@@ -18,7 +18,8 @@ const beVietnam = Be_Vietnam_Pro({
   subsets: ["vietnamese", "latin"],
 });
 
-const SITE_URL = "https://giaoanpro.com";
+// www là domain thật sự phục vụ trang (apex 308-redirect sang www).
+const SITE_URL = "https://www.giaoanpro.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

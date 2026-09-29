@@ -3,7 +3,10 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = { title: "Điều khoản dịch vụ — Giáo Án Pro" };
+export const metadata: Metadata = {
+  title: "Điều khoản dịch vụ — Giáo Án Pro",
+  alternates: { canonical: "/dieu-khoan" },
+};
 
 export default function TermsPage() {
   return (

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Danh mục SGK miễn phí — Giáo Án Pro",
   description:
     "Kho sách giáo khoa Tiểu học, THCS, THPT miễn phí — tải về hoặc xem online, hỗ trợ giáo viên và học sinh học tập.",
+  alternates: { canonical: "/danh-muc-sgk" },
 };
 
 export default function SgkCatalogPage() {

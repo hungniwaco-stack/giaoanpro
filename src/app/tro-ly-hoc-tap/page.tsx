@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Trợ lý Học tập AI — Giáo Án Pro",
   description:
     "Kho trợ lý học tập AI (Gemini Gem) theo từng lớp, từng môn — hỗ trợ học sinh tự học, miễn phí.",
+  alternates: { canonical: "/tro-ly-hoc-tap" },
 };
 
 export default function TroLyHocTapPage() {

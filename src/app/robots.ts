@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://giaoanpro.com";
+// www là domain thật sự phục vụ trang (apex 308-redirect sang www).
+const SITE_URL = "https://www.giaoanpro.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {

@@ -4,7 +4,10 @@ import Footer from "@/components/Footer";
 import PostCard from "@/components/PostCard";
 import { POSTS } from "@/lib/posts";
 
-export const metadata: Metadata = { title: "Miễn phí: Tool, Prompt, Chatbot — Giáo Án Pro" };
+export const metadata: Metadata = {
+  title: "Miễn phí: Tool, Prompt, Chatbot — Giáo Án Pro",
+  alternates: { canonical: "/mien-phi" },
+};
 
 export default function MienPhiListPage() {
   const posts = POSTS.filter((p) => p.category === "mien-phi");
