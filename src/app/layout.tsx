@@ -6,6 +6,9 @@ import "./globals.css";
 // Quản lý qua Google Tag Manager thay vì gắn gtag trực tiếp — đổi/thêm thẻ (GA4, Ads...)
 // chỉnh trong GTM, không cần sửa code.
 const GTM_ID = "GTM-WD98GG3J";
+// Pixel đo lường quảng cáo ChatGPT (ads.openai.com → Lượt chuyển đổi). Gắn bằng code thay vì
+// GTM vì phải sửa CSP, và để kiểm thử được trước khi deploy.
+const OPENAI_PIXEL_ID = "7W5Xk12pfCg2uzwWHcH3yJ";
 
 const literata = Literata({
   variable: "--font-literata",
@@ -73,6 +76,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
+        <Script id="openai-pixel" strategy="afterInteractive">
+          {`(function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;
+            var js=d.createElement(s);js.async=true;js.src=u;var f=d.getElementsByTagName(s)[0];
+            f.parentNode.insertBefore(js,f);
+          })(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
+          oaiq("init",{pixelId:"${OPENAI_PIXEL_ID}"});`}
         </Script>
       </body>
     </html>

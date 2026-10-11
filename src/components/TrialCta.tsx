@@ -3,6 +3,7 @@
 declare global {
   interface Window {
     dataLayer?: Record<string, unknown>[];
+    oaiq?: (...args: unknown[]) => void;
   }
 }
 
@@ -22,6 +23,7 @@ export default function TrialCta({
       onClick={() => {
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({ event: "bat_dau_dung_thu", app_slug: appSlug });
+        window.oaiq?.("measure", "trial_started", { type: "plan_enrollment", plan_id: `trial_${appSlug}` });
       }}
     >
       Dùng thử ngay →
