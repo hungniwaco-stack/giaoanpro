@@ -53,8 +53,7 @@ export default function TermsPage() {
               <p className="mt-2">
                 Thanh toán qua chuyển khoản VietQR (SePay), theo các gói 1 Tháng / 6 Tháng / 1 Năm
                 được niêm yết công khai trên từng công cụ. Sau khi thanh toán thành công, hệ thống
-                tự động kích hoạt ngay trên trình duyệt bạn đang dùng, đồng thời gửi mã kích hoạt
-                qua email để bạn dùng thêm trên tối đa 3 thiết bị khác. Không chia sẻ mã kích hoạt
+                tự động kích hoạt ngay trên trình duyệt bạn đang dùng, đồng thời hiện mã kích hoạt ngay trên màn hình để bạn dùng thêm trên tối đa 3 thiết bị khác — hãy lưu lại mã này. Không chia sẻ mã kích hoạt
                 cho người ngoài.
               </p>
             </section>

@@ -33,9 +33,7 @@ export default function RefundPolicyPage() {
               <h2 className="font-display text-xl font-semibold text-ink">Cách yêu cầu hoàn tiền</h2>
               <p className="mt-2">
                 Liên hệ Zalo/điện thoại <strong className="text-ink">0944 851719</strong> hoặc email{" "}
-                <strong className="text-ink">hungniwaco@gmail.com</strong>, kèm mã đơn hàng (bắt đầu bằng
-                &quot;GA&quot;, có trong email xác nhận kích hoạt) hoặc số điện thoại/email đã đăng ký để
-                đối chiếu.
+                <strong className="text-ink">hungniwaco@gmail.com</strong>, kèm mã đơn hàng (bắt đầu bằng &quot;GA&quot;, hiện trên màn hình sau khi thanh toán và có trong nội dung chuyển khoản) hoặc ảnh chụp biên lai chuyển khoản để đối chiếu.
               </p>
             </section>
 

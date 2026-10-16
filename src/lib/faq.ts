@@ -26,17 +26,17 @@ export const FAQS: FaqItem[] = [
   {
     question: "Thanh toán và kích hoạt như thế nào?",
     answer:
-      "Thanh toán bằng chuyển khoản qua mã VietQR. Thanh toán thành công, hệ thống tự kích hoạt ngay trên trình duyệt bạn đang dùng và gửi mã kích hoạt qua email để bạn dùng thêm trên tối đa 3 thiết bị khác.",
+      "Thanh toán bằng chuyển khoản qua mã VietQR. Thanh toán thành công, hệ thống tự kích hoạt ngay trên trình duyệt bạn đang dùng và hiện mã kích hoạt ngay trên màn hình để bạn dùng thêm trên tối đa 3 thiết bị khác — hãy lưu lại mã này. Không cần đăng ký tài khoản hay nhập email, số điện thoại.",
   },
   {
     question: "Tôi đổi máy hoặc xoá dữ liệu trình duyệt thì có mất gói không?",
     answer:
-      "Không mất. Bạn nhập mã kích hoạt trong email thanh toán vào ứng dụng để kích hoạt lại; mỗi mã dùng được tối đa 3 thiết bị. Nếu không tìm thấy mã, hãy liên hệ hỗ trợ để được kiểm tra.",
+      "Không mất, nếu bạn còn mã kích hoạt (bắt đầu bằng chữ GA, hiện trên màn hình sau khi thanh toán và cũng có trong nội dung chuyển khoản ở lịch sử giao dịch ngân hàng của bạn). Nhập mã vào ứng dụng để kích hoạt lại; mỗi mã dùng được tối đa 3 thiết bị. Nếu không còn mã, hãy liên hệ hỗ trợ kèm biên lai chuyển khoản để được kiểm tra.",
   },
   {
     question: "Có được hoàn tiền không?",
     answer:
-      "Có. Bạn được hoàn 100% số tiền đã thanh toán nếu đáp ứng đủ hai điều kiện: yêu cầu trong vòng 3 ngày kể từ lúc thanh toán thành công, và chưa tạo quá 3 giáo án/đề thi/bài tập kể từ lúc kích hoạt (tự kiểm tra số lượng trong mục Lịch sử của tài khoản). Để yêu cầu hoàn tiền, liên hệ Zalo, điện thoại hoặc email, kèm mã đơn hàng bắt đầu bằng chữ GA (có trong email xác nhận kích hoạt) hoặc số điện thoại/email đã đăng ký để đối chiếu. Yêu cầu hợp lệ được xử lý trong 3–5 ngày làm việc, hoàn tiền đúng qua tài khoản ngân hàng đã dùng để thanh toán ban đầu. Nếu bạn không dùng được dịch vụ do lỗi kỹ thuật từ phía Giáo Án Pro, ngoài hoàn tiền còn có thể được gia hạn thêm thời gian sử dụng tương ứng.",
+      "Có. Bạn được hoàn 100% số tiền đã thanh toán nếu đáp ứng đủ hai điều kiện: yêu cầu trong vòng 3 ngày kể từ lúc thanh toán thành công, và chưa tạo quá 3 giáo án/đề thi/bài tập kể từ lúc kích hoạt (tự kiểm tra số lượng trong mục Lịch sử của tài khoản). Để yêu cầu hoàn tiền, liên hệ Zalo, điện thoại hoặc email, kèm mã đơn hàng bắt đầu bằng chữ GA (hiện trên màn hình sau khi thanh toán và có trong nội dung chuyển khoản) hoặc ảnh chụp biên lai chuyển khoản để đối chiếu. Yêu cầu hợp lệ được xử lý trong 3–5 ngày làm việc, hoàn tiền đúng qua tài khoản ngân hàng đã dùng để thanh toán ban đầu. Nếu bạn không dùng được dịch vụ do lỗi kỹ thuật từ phía Giáo Án Pro, ngoài hoàn tiền còn có thể được gia hạn thêm thời gian sử dụng tương ứng.",
     link: { href: "/chinh-sach-hoan-tien", label: "Xem chính sách hoàn tiền" },
   },
   {

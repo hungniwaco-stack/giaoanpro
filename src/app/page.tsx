@@ -4,10 +4,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TrialCta from "@/components/TrialCta";
 import FaqSection from "@/components/FaqSection";
+import PricingSection from "@/components/PricingSection";
 import { APPS } from "@/lib/apps";
 import { FAQS } from "@/lib/faq";
 import { POSTS } from "@/lib/posts";
-import { PLANS } from "@/lib/pricing";
 
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
@@ -141,30 +141,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-5xl px-4 pb-16">
-          <h2 className="font-display text-2xl font-semibold text-ink">Giá chỉ từ {PLANS[0].price}/tháng</h2>
-          <p className="mt-1 text-sm text-ink-muted">
-            Giá như nhau ở cả 3 cấp, gói kích hoạt riêng cho từng cấp — dùng thử miễn phí trước, chỉ trả phí khi cần dùng lâu dài.
-          </p>
-          <div className="mt-6 grid gap-5 sm:grid-cols-3">
-            {PLANS.map((plan) => (
-              <div
-                key={plan.label}
-                className={`rounded-2xl border p-6 text-center ${
-                  plan.highlight ? "border-pine bg-pine/5 shadow-md" : "border-ink/10 bg-paper-card"
-                }`}
-              >
-                {plan.highlight && (
-                  <span className="mb-2 inline-block rounded-full bg-pine px-2.5 py-1 text-xs font-medium text-paper">
-                    Bán chạy nhất
-                  </span>
-                )}
-                <p className="font-display text-lg font-semibold text-ink">{plan.label}</p>
-                <p className="mt-1 text-2xl font-bold text-pine-dark">{plan.price}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        <PricingSection />
 
         <FaqSection />
       </main>
