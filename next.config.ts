@@ -1,6 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Liên kết gõ sai đã thấy trong GA4 (trang 404) — chuyển về bài đúng thay vì để mất khách.
+  async redirects() {
+    return [
+      { source: "/blog/5prompt-ai-cho-giao-vien", destination: "/blog/5-prompt-ai-cho-giao-vien", permanent: true },
+      { source: "/blog/5prompt-ai-cho-giao-vi%C3%AAn", destination: "/blog/5-prompt-ai-cho-giao-vien", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
