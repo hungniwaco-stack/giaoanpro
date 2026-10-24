@@ -57,7 +57,8 @@ export const FAQS: FaqItem[] = [
   {
     question: "Dữ liệu của tôi được xử lý thế nào? Có cần tạo tài khoản không?",
     answer:
-      "Không cần tạo tài khoản: hệ thống nhận diện trình duyệt của bạn bằng một mã ẩn danh lưu trong cookie, cùng địa chỉ IP để giới hạn lượt dùng thử (chỉ lưu khoảng 2 ngày). Nội dung bạn nhập, và tài liệu bạn đính kèm nếu có (công văn, phụ lục của Sở/trường), được gửi đến Google Gemini để tạo kết quả; khi Gemini tạm không dùng được, hệ thống có thể dùng DeepSeek API dự phòng. Lịch sử giáo án được lưu tối đa khoảng 400 ngày để bạn xem lại trong mục Lịch sử. Tên và trường bạn nhập ở mục Hồ sơ chỉ lưu trên trình duyệt, không gửi lên máy chủ. Riêng trang chủ dùng Google Analytics và pixel đo quảng cáo OpenAI (có cookie); nội dung giáo án của bạn không gửi cho các công cụ này, và chúng tôi không bán dữ liệu. Chi tiết có trong Chính sách bảo mật của từng ứng dụng.",
+      "Không cần tạo tài khoản: hệ thống nhận diện trình duyệt của bạn bằng một mã ẩn danh lưu trong cookie, cùng địa chỉ IP để giới hạn lượt dùng thử (chỉ lưu khoảng 2 ngày). Nội dung bạn nhập, và tài liệu bạn đính kèm nếu có (công văn, phụ lục của Sở/trường), được gửi đến Google Gemini để tạo kết quả; khi Gemini tạm không dùng được, hệ thống có thể dùng DeepSeek API dự phòng. Lịch sử giáo án được lưu tối đa khoảng 400 ngày để bạn xem lại trong mục Lịch sử. Tên và trường bạn nhập ở mục Hồ sơ chỉ lưu trên trình duyệt, không gửi lên máy chủ. Riêng trang chủ dùng Google Analytics và pixel đo quảng cáo OpenAI (có cookie); nội dung giáo án của bạn không gửi cho các công cụ này, và chúng tôi không bán dữ liệu. Chi tiết có trong Chính sách bảo mật của trang chủ và từng ứng dụng.",
+    link: { href: "/bao-mat", label: "Xem chính sách bảo mật trang chủ" },
   },
   {
     question: "Tôi có thể làm cộng tác viên để nhận hoa hồng không?",

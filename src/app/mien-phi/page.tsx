@@ -6,6 +6,7 @@ import { POSTS } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Miễn phí: Tool, Prompt, Chatbot — Giáo Án Pro",
+  description: "Prompt, tài liệu soạn bài và chatbot miễn phí dành cho giáo viên: tải về dùng ngay, không thu phí.",
   alternates: { canonical: "/mien-phi" },
 };
 

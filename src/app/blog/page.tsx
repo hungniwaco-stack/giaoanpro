@@ -4,7 +4,11 @@ import Footer from "@/components/Footer";
 import PostCard from "@/components/PostCard";
 import { POSTS } from "@/lib/posts";
 
-export const metadata: Metadata = { title: "Blog — Giáo Án Pro", alternates: { canonical: "/blog" } };
+export const metadata: Metadata = {
+  title: "Blog — Giáo Án Pro",
+  description: "Bài viết chia sẻ cách dùng AI soạn bài và góc nhìn thực tế về AI trong giáo dục, viết cho giáo viên Việt Nam.",
+  alternates: { canonical: "/blog" },
+};
 
 export default function BlogListPage() {
   const posts = POSTS.filter((p) => p.category === "blog");

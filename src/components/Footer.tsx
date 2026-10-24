@@ -22,6 +22,8 @@ export default function Footer() {
         <Link href="/dieu-khoan" className="hover:text-pine-dark">Điều khoản dịch vụ</Link>
         <span className="mx-2">·</span>
         <Link href="/chinh-sach-hoan-tien" className="hover:text-pine-dark">Chính sách hoàn tiền</Link>
+        <span className="mx-2">·</span>
+        <Link href="/bao-mat" className="hover:text-pine-dark">Chính sách bảo mật</Link>
       </p>
     </footer>
   );

@@ -16,8 +16,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = POSTS.find((p) => p.slug === slug);
+  // Google cắt mô tả quanh 160 ký tự — cắt ở ranh giới từ để câu không đứt giữa chừng.
+  const description = post && (post.excerpt.length > 160 ? `${post.excerpt.slice(0, 157).replace(/\s+\S*$/, "")}…` : post.excerpt);
   return {
     title: post ? `${post.title} — Giáo Án Pro` : "Bài viết — Giáo Án Pro",
+    ...(description ? { description } : {}),
     alternates: { canonical: `/blog/${slug}` },
   };
 }

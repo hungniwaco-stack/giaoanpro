@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Điều khoản dịch vụ — Giáo Án Pro",
+  description: "Điều khoản dịch vụ Giáo Án Pro: phạm vi dịch vụ, dùng thử và gói trả phí, thanh toán VietQR, quyền sở hữu nội dung và giới hạn trách nhiệm.",
   alternates: { canonical: "/dieu-khoan" },
 };
 

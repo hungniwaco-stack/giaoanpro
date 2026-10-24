@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Giáo Án Pro — AI soạn giáo án chuẩn 2345 & 5512",
   description:
-    "Bộ công cụ AI soạn giáo án cho giáo viên Tiểu học, THCS, THPT. Xuất Word/PowerPoint đúng chuẩn chỉ trong vài giây. Kèm blog chia sẻ prompt và ứng dụng AI trong giáo dục, hoàn toàn miễn phí.",
+    "Bộ 3 công cụ AI soạn giáo án cho giáo viên Tiểu học, THCS, THPT: đúng chuẩn Công văn 2345 và 5512, xuất Word và PowerPoint. Dùng thử miễn phí.",
   keywords: ["giáo án AI", "soạn giáo án", "công văn 2345", "công văn 5512", "AI giáo dục", "prompt AI cho giáo viên"],
   openGraph: {
     title: "Giáo Án Pro",

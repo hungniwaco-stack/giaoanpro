@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Chính sách hoàn tiền — Giáo Án Pro",
+  description: "Chính sách hoàn tiền Giáo Án Pro: hoàn 100% nếu yêu cầu trong 3 ngày kể từ lúc thanh toán và chưa tạo quá 3 giáo án, đề thi hoặc bài tập.",
   alternates: { canonical: "/chinh-sach-hoan-tien" },
 };
 
