@@ -50,6 +50,11 @@ export const FAQS: FaqItem[] = [
       "Giáo án được soạn theo cấu trúc của Công văn 2345 (Tiểu học) và Công văn 5512 (THCS, THPT), bám sát sách Kết nối tri thức. Mỗi giáo án có sẵn dòng ngày soạn, số tiết và bảng chữ ký duyệt ở cuối để bạn điền khi nộp.",
   },
   {
+    question: "Giáo án có phải hồ sơ bắt buộc của giáo viên không? Dùng bản điện tử được không?",
+    answer:
+      "Có. Theo Điều 21 Thông tư 15/2026/TT-BGDĐT (Điều lệ trường tiểu học, THCS, THPT, có hiệu lực từ 10/5/2026), hồ sơ của giáo viên gồm kế hoạch bài dạy (giáo án); giáo viên chủ nhiệm có thêm sổ chủ nhiệm, Tổng phụ trách Đội có thêm sổ công tác Đội. Như vậy giáo viên không kiêm nhiệm chỉ có giáo án là hồ sơ bắt buộc theo Điều lệ. Cũng theo điều này, hồ sơ được quản lý chủ yếu dưới dạng điện tử và có giá trị pháp lý tương đương hồ sơ giấy; nếu đã dùng hồ sơ điện tử hợp pháp thì không bắt buộc lập thêm bản giấy, theo lộ trình phù hợp với điều kiện của địa phương và nhà trường. Thông tư không quy định mẫu giáo án, và Sở hoặc trường có thể có yêu cầu riêng, nên bạn hãy hỏi tổ chuyên môn trước khi nộp.",
+  },
+  {
     question: "Sở hoặc trường tôi có mẫu giáo án riêng, dùng được không?",
     answer:
       "Được. Trong mục Cấu Hình Cá Nhân của mỗi cấp, bạn đính kèm công văn hoặc phụ lục của Sở/trường (Word .docx, PDF hoặc ảnh chụp; tối đa 3 tài liệu, mỗi file tối đa 4MB, có 3 lượt phân tích miễn phí). AI sẽ đọc và soạn giáo án bám theo yêu cầu đó. Lưu ý: tài liệu dạng kế hoạch giáo dục cả năm (phân phối chương trình) hiện chưa được hỗ trợ, và file Word .doc cũ cần lưu lại thành .docx.",
