@@ -11,6 +11,22 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "thong-tu-15-2026-giao-an-ho-so-bat-buoc",
+    title: "Thông tư 15/2026: giáo án là hồ sơ bắt buộc, hồ sơ điện tử có giá trị như bản giấy",
+    excerpt: "Điều 21 Thông tư 15/2026/TT-BGDĐT nêu rõ giáo viên phải có những hồ sơ nào và cho phép dùng hồ sơ điện tử thay bản giấy. Đây là phần cần biết, trích theo văn bản gốc.",
+    date: "2026-10-27",
+    category: "blog",
+    content: [
+      "Câu trả lời ngắn: có. Theo Điều 21 Thông tư 15/2026/TT-BGDĐT, kế hoạch bài dạy (giáo án) là hồ sơ của giáo viên, và hồ sơ được phép quản lý dưới dạng điện tử, có giá trị pháp lý tương đương hồ sơ giấy. Bài này chỉ trích lại những gì có trong văn bản, không diễn giải thêm.",
+      "Thông tư 15/2026/TT-BGDĐT là Điều lệ trường tiểu học, trung học cơ sở, trung học phổ thông và trường phổ thông nhiều cấp học, ban hành ngày 24/3/2026 và có hiệu lực từ 10/5/2026. Thông tư thay thế Thông tư 28/2020 (Điều lệ trường tiểu học) và Thông tư 32/2020 (Điều lệ trường THCS, THPT), cùng một số văn bản về chuyển trường và xét tốt nghiệp THCS.",
+      "Hồ sơ của giáo viên theo khoản 2 Điều 21 gồm ba loại: (1) kế hoạch bài dạy (giáo án); (2) sổ chủ nhiệm, dành cho giáo viên làm công tác chủ nhiệm lớp; (3) sổ công tác Đội, dành cho Tổng phụ trách Đội. Nghĩa là một giáo viên bộ môn không kiêm nhiệm chủ nhiệm hay Tổng phụ trách Đội thì chỉ có giáo án là hồ sơ cá nhân theo Điều lệ.",
+      "Về hình thức, khoản 4 Điều 21 quy định hồ sơ được quản lý, sử dụng chủ yếu dưới dạng hồ sơ điện tử. Hồ sơ điện tử có giá trị pháp lý tương đương hồ sơ giấy và được dùng thay hồ sơ giấy theo lộ trình phù hợp với điều kiện hạ tầng công nghệ thông tin của địa phương, nhà trường và khả năng thực hiện của giáo viên. Nếu đã sử dụng hồ sơ điện tử hợp pháp thì không bắt buộc phải lập hồ sơ giấy tương ứng.",
+      "Có ba điểm cần lưu ý. Thứ nhất, \"theo lộ trình\" nghĩa là tốc độ chuyển sang bản điện tử khác nhau giữa các địa phương và trường, nên cách nộp giáo án ở trường bạn vẫn do nhà trường và tổ chuyên môn hướng dẫn. Thứ hai, Thông tư 15 không quy định mẫu giáo án; cấu trúc giáo án vẫn bám các công văn hướng dẫn hiện hành như Công văn 5512 (THCS, THPT) và Công văn 2345 (Tiểu học), và Sở hoặc trường có thể có yêu cầu riêng. Thứ ba, các hồ sơ khác trong khoản 1 là của nhà trường (học bạ, sổ đăng bộ, sổ theo dõi và đánh giá học sinh và các loại khác), không phải của từng giáo viên.",
+      "Nếu bạn cần dùng làm căn cứ, hãy đối chiếu với bản đang áp dụng: Thông tư đã có Quyết định 1240/QĐ-BGDĐT ngày 19/5/2026 về đính chính, và có thể được hướng dẫn thêm. Văn bản gốc đăng trên Công báo và cổng thông tin của Bộ Giáo dục và Đào tạo (moet.gov.vn).",
+      "Giáo Án Pro chỉ giúp soạn bản nháp giáo án nhanh hơn theo cấu trúc Công văn 2345 và 5512. Bạn vẫn cần đọc lại, chỉnh sửa và nộp theo hướng dẫn của tổ chuyên môn trường mình; việc bản điện tử được chấp nhận ở trường bạn thế nào thì theo quy định của nhà trường.",
+    ],
+  },
+  {
     slug: "thay-co-minh-su-ai-vai-tro-nao",
     title: "Thầy cô hay Minh sư? AI giúp được vai nào của giáo viên, và vai nào thì không",
     excerpt: "Có một cách phân biệt rất rõ giữa 'thầy cô' và 'minh sư' — hai vai trò tưởng giống mà khác hẳn. Ranh giới đó cũng chính là ranh giới AI không bao giờ vượt qua được.",
