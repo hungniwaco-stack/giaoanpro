@@ -11,6 +11,25 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "soan-giao-an-tieu-hoc-cong-van-2345-bang-ai",
+    title: "Soạn giáo án Tiểu học theo Công văn 2345 bằng AI: 6 bước, có ví dụ thật",
+    excerpt: "Khung kế hoạch bài dạy theo Phụ lục 3 Công văn 2345, cách dùng AI soạn bản nháp từng bước, kèm một bài Toán lớp 2 đã chạy thật và những chỗ cần sửa.",
+    date: "2026-10-29",
+    category: "mien-phi",
+    content: [
+      "Soạn giáo án Tiểu học theo Công văn 2345 bằng AI gồm 6 bước: nắm khung Phụ lục 3, nhập đúng môn - lớp - tên bài, thêm trích đoạn sách giáo khoa nếu có, đọc đối chiếu bản nháp với khung, chỉnh theo lớp của mình, rồi xuất file Word để điền ngày soạn và chữ ký. Bài này đi qua từng bước với một bài Toán lớp 2 đã chạy thật, kèm những chỗ AI làm chưa đúng mà thầy cô cần sửa.",
+      "Bước 1 - Nắm khung kế hoạch bài dạy. Phụ lục 3 của Công văn 2345/BGDĐT-GDTH (ngày 7/6/2021) hướng dẫn kế hoạch bài dạy của giáo viên tiểu học. Phần đầu ghi môn học hoặc hoạt động giáo dục, lớp, tên bài học, số tiết và thời gian thực hiện. Phần nội dung gồm: (1) Yêu cầu cần đạt: học sinh làm được gì, vận dụng được gì, hình thành phẩm chất và năng lực nào; (2) Đồ dùng dạy học: thiết bị, học liệu dùng trong bài; (3) Các hoạt động dạy học chủ yếu: mở đầu, hình thành kiến thức mới (chỉ áp dụng với bài hình thành kiến thức mới), luyện tập thực hành, vận dụng trải nghiệm (nếu có); (4) Điều chỉnh sau bài dạy (nếu có). Văn bản cũng nêu giáo viên được chủ động, linh hoạt và điều chỉnh kế hoạch theo học sinh và điều kiện dạy học.",
+      "Bước 2 - Nhập đúng môn, lớp và tên bài. Trong công cụ Cấp 1 của Giáo Án Pro, bạn chọn môn học, khối lớp và gõ tên bài đúng như trong sách giáo khoa. Tên bài càng cụ thể thì bản nháp càng sát. Ở ví dụ dưới đây tôi nhập: Toán, lớp 2, \"Phép cộng (có nhớ) trong phạm vi 100\".",
+      "Bước 3 - Dán trích đoạn sách giáo khoa nếu có. Công cụ có ô \"Trích đoạn SGK (tuỳ chọn)\". AI không xem được sách giáo khoa của bạn, nên nếu bạn dán nội dung bài, ví dụ và bài tập vào đó, bản nháp sẽ bám theo. Nếu để trống, AI soạn dựa trên hiểu biết chung về chương trình, và những chỗ nhắc tới \"bài 1, bài 2 trong SGK\" có thể không khớp sách thật.",
+      "Bước 4 - Đọc đối chiếu bản nháp với khung. Bản nháp trong ví dụ có phần yêu cầu cần đạt gồm 4 gạch đầu dòng, phần đồ dùng dạy học chia theo giáo viên và học sinh, và thời lượng \"1 tiết (35 phút)\". Bốn hoạt động theo thứ tự như sau.",
+      "Hoạt động 1 - Mở đầu: cho học sinh chơi trò chơi tính nhanh các phép cộng không nhớ, rồi đưa tình huống \"Thỏ hái 25 củ cà rốt, hái thêm 6 củ\" để dẫn vào phép tính 25 + 6. Hoạt động 2 - Hình thành kiến thức mới: học sinh dùng que tính gộp thành 31 que, giáo viên hướng dẫn đặt tính và tính (5 cộng 6 bằng 11, viết 1 nhớ 1; 2 thêm 1 bằng 3). Hoạt động 3 - Luyện tập, thực hành: đặt tính rồi tính 47 + 5 và 38 + 4, làm việc nhóm đôi, giải bài toán có lời văn. Hoạt động 4 - Vận dụng, trải nghiệm: tình huống mua vở 18 nghìn đồng và thước kẻ 5 nghìn đồng, tính tổng số tiền. Tôi tự kiểm tra các phép tính trong bản nháp (25 + 6 = 31, 18 + 5 = 23) và đều đúng.",
+      "Bước 5 - Chỉnh theo lớp của mình. Trong ví dụ này tôi thấy bốn chỗ cần sửa. Một: yêu cầu cần đạt có cụm \"tính từ phụ sang chính\", một cách diễn đạt lạ, nên đổi thành \"tính từ phải sang trái, từ hàng đơn vị đến hàng chục\". Hai: hoạt động 1 đặt tên trò chơi \"Thỏ con hái nấm\" nhưng tình huống lại là củ cà rốt, cần thống nhất. Ba: hoạt động 3 nhắc \"Bài 1, Bài 2, Bài 3\" và trò \"Tìm nhà cho bạn\" như thể lấy từ SGK, trong khi tôi không dán trích đoạn nào, nên phải đối chiếu với sách thật. Bốn: bản nháp luôn có đủ 4 hoạt động, trong khi khung Phụ lục 3 cho biết hoạt động hình thành kiến thức mới chỉ áp dụng với bài kiến thức mới, và hoạt động vận dụng chỉ có khi cần. Với bài ôn tập hay luyện tập, thầy cô nên bỏ bớt cho đúng loại bài.",
+      "Bước 6 - Xuất Word, điền thông tin và ghi điều chỉnh sau bài dạy. File Word có sẵn dòng ngày soạn, ngày dạy và bảng chữ ký duyệt để điền khi nộp tổ chuyên môn. Mục \"Điều chỉnh sau bài dạy\" trong Phụ lục 3 hiện chưa được tạo sẵn trong bản nháp, thầy cô tự thêm sau khi dạy: ghi điều gì hiệu quả, điều gì cần rút kinh nghiệm.",
+      "Còn một điều cần nói rõ: AI chỉ tạo bản nháp. Mọi nội dung, số liệu và cách tổ chức đều cần thầy cô đọc lại, chỉnh theo học sinh thực tế và theo hướng dẫn của tổ chuyên môn, vì Sở hoặc trường có thể có yêu cầu riêng. Nếu trường bạn có mẫu riêng, hãy đính kèm công văn hoặc phụ lục đó trong mục Cấu Hình Cá Nhân để AI bám theo.",
+      "Giáo Án Pro có công cụ Cấp 1 làm sẵn các bước trên theo cấu trúc Công văn 2345. Mỗi chức năng có 3 lượt dùng thử miễn phí, không cần tạo tài khoản.",
+    ],
+  },
+  {
     slug: "thong-tu-15-2026-giao-an-ho-so-bat-buoc",
     title: "Thông tư 15/2026: giáo án là hồ sơ bắt buộc, hồ sơ điện tử có giá trị như bản giấy",
     excerpt: "Điều 21 Thông tư 15/2026/TT-BGDĐT nêu rõ giáo viên phải có những hồ sơ nào và cho phép dùng hồ sơ điện tử thay bản giấy. Đây là phần cần biết, trích theo văn bản gốc.",
