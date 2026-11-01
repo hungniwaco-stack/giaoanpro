@@ -5,6 +5,10 @@ export interface Post {
   title: string;
   excerpt: string;
   date: string;
+  // Ngày sửa nội dung gần nhất (YYYY-MM-DD); bỏ trống = bằng ngày đăng.
+  modified?: string;
+  // Tiêu đề ngắn cho thẻ <title> (≤ ~45 ký tự để cộng hậu tố vẫn ≤ 60); bỏ trống = dùng title.
+  seoTitle?: string;
   category: PostCategory;
   content: string[];
 }
@@ -15,6 +19,7 @@ export const POSTS: Post[] = [
     title: "10 prompt soạn bài cho Tiểu học, THCS, THPT: đã chạy thử từng câu, kèm nhận xét",
     excerpt: "10 prompt soạn bài chia theo Tiểu học, THCS, THPT, đã chạy thử từng câu bằng AI, kèm nhận xét chỗ nào dùng được ngay và chỗ nào thầy cô cần sửa.",
     date: "2026-11-03",
+    seoTitle: "10 prompt soạn bài Tiểu học, THCS, THPT",
     category: "mien-phi",
     content: [
       "Bài này có 10 prompt để copy và dùng ngay: 3 cho Tiểu học, 4 cho THCS, 3 cho THPT. Mỗi prompt ở đây đã được chạy thử một lần, và bên dưới có nhận xét kết quả: chỗ nào dùng được ngay, chỗ nào thầy cô cần sửa. Các chỗ trong ngoặc vuông [như thế này] là phần bạn thay bằng bài của mình.",
@@ -52,6 +57,8 @@ export const POSTS: Post[] = [
     title: "Soạn giáo án Tiểu học theo Công văn 2345 bằng AI: 6 bước, có ví dụ thật",
     excerpt: "Khung kế hoạch bài dạy theo Phụ lục 3 Công văn 2345, cách dùng AI soạn bản nháp từng bước, kèm một bài Toán lớp 2 đã chạy thật và những chỗ cần sửa.",
     date: "2026-10-29",
+    modified: "2026-10-31",
+    seoTitle: "Soạn giáo án Tiểu học theo Công văn 2345",
     category: "mien-phi",
     content: [
       "Soạn giáo án Tiểu học theo Công văn 2345 bằng AI gồm 6 bước: nắm khung Phụ lục 3, nhập đúng môn - lớp - tên bài, thêm trích đoạn sách giáo khoa nếu có, đọc đối chiếu bản nháp với khung, chỉnh theo lớp của mình, rồi xuất file Word để điền ngày soạn và chữ ký. Bài này đi qua từng bước với một bài Toán lớp 2 đã chạy thật, kèm những chỗ AI làm chưa đúng mà thầy cô cần sửa.",
@@ -71,6 +78,7 @@ export const POSTS: Post[] = [
     title: "Thông tư 15/2026: giáo án là hồ sơ bắt buộc, hồ sơ điện tử có giá trị như bản giấy",
     excerpt: "Điều 21 Thông tư 15/2026/TT-BGDĐT nêu rõ giáo viên phải có những hồ sơ nào và cho phép dùng hồ sơ điện tử thay bản giấy. Đây là phần cần biết, trích theo văn bản gốc.",
     date: "2026-10-27",
+    seoTitle: "Giáo án là hồ sơ bắt buộc theo Thông tư 15/2026",
     category: "blog",
     content: [
       "Câu trả lời ngắn: có. Theo Điều 21 Thông tư 15/2026/TT-BGDĐT, kế hoạch bài dạy (giáo án) là hồ sơ của giáo viên, và hồ sơ được phép quản lý dưới dạng điện tử, có giá trị pháp lý tương đương hồ sơ giấy. Bài này chỉ trích lại những gì có trong văn bản, không diễn giải thêm.",
@@ -87,6 +95,7 @@ export const POSTS: Post[] = [
     title: "Thầy cô hay Minh sư? AI giúp được vai nào của giáo viên, và vai nào thì không",
     excerpt: "Có một cách phân biệt rất rõ giữa 'thầy cô' và 'minh sư' — hai vai trò tưởng giống mà khác hẳn. Ranh giới đó cũng chính là ranh giới AI không bao giờ vượt qua được.",
     date: "2026-09-07",
+    seoTitle: "Thầy cô hay Minh sư? AI giúp được vai nào",
     category: "blog",
     content: [
       "Có một cách phân biệt vai trò khá thú vị trong nghề giáo, chia thành hai vai: Thầy cô và Minh sư. Nghe qua tưởng giống nhau, nhưng ranh giới giữa hai vai này lại chính là ranh giới mà AI không bao giờ vượt qua được.",
@@ -117,6 +126,7 @@ export const POSTS: Post[] = [
     title: "AI có thể thay giáo viên không? Góc nhìn thực tế",
     excerpt: "AI soạn giáo án nhanh, nhưng có 3 việc không AI nào làm thay được. Đây là góc nhìn thẳng, không thổi phồng công nghệ.",
     date: "2026-08-31",
+    seoTitle: "AI có thể thay giáo viên không?",
     category: "blog",
     content: [
       "Câu trả lời ngắn gọn: không. Nhưng AI có thể gánh bớt phần việc tốn thời gian nhất — soạn thảo, định dạng, ra đề — để giáo viên dành thời gian cho phần AI không làm được.",

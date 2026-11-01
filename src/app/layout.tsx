@@ -42,9 +42,11 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
   name: "Giáo Án Pro",
   url: SITE_URL,
-  founder: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
+  // ponytail: chưa có tệp logo thật để khai báo `logo`; thêm khi có ảnh logo.
+  founder: { "@type": "Person", "@id": `${SITE_URL}/#founder`, name: "Nguyễn Hữu Hùng", url: SITE_URL },
   description:
     "Bộ công cụ AI soạn giáo án cho giáo viên Tiểu học, THCS, THPT tại Việt Nam, chuẩn Công văn 2345 và 5512.",
   sameAs: ["https://www.facebook.com/profile.php?id=61594446321360"],

@@ -10,16 +10,27 @@
 
 Mỗi công cụ hỗ trợ soạn giáo án, ra đề kiểm tra, tạo bài tập, và trò chuyện AI; xuất file Word và PowerPoint. Có gói dùng thử miễn phí, gói trả phí theo tháng/6 tháng/năm thanh toán qua VietQR.
 
+## Bài viết hướng dẫn
+
+- [Giáo án là hồ sơ bắt buộc theo Thông tư 15/2026](https://www.giaoanpro.com/blog/thong-tu-15-2026-giao-an-ho-so-bat-buoc): hồ sơ của giáo viên và hồ sơ điện tử theo Điều 21 Thông tư 15/2026/TT-BGDĐT.
+- [Soạn giáo án Tiểu học theo Công văn 2345 bằng AI](https://www.giaoanpro.com/blog/soan-giao-an-tieu-hoc-cong-van-2345-bang-ai): khung Phụ lục 3 và 6 bước có ví dụ thật.
+- [10 prompt soạn bài Tiểu học, THCS, THPT](https://www.giaoanpro.com/blog/10-prompt-soan-bai-tieu-hoc-thcs-thpt): đã chạy thử từng câu, kèm nhận xét.
+- [5 prompt AI giúp giáo viên soạn bài nhanh hơn](https://www.giaoanpro.com/blog/5-prompt-ai-cho-giao-vien)
+- [AI có thể thay giáo viên không?](https://www.giaoanpro.com/blog/ai-co-thay-duoc-giao-vien-khong)
+- [Thầy cô hay Minh sư? AI giúp được vai nào](https://www.giaoanpro.com/blog/thay-co-minh-su-ai-vai-tro-nao)
+
 ## Tài nguyên miễn phí
 
-- [Danh mục SGK](https://giaoanpro.com/danh-muc-sgk): Sách giáo khoa Tiểu học, THCS, THPT miễn phí.
-- [Trợ lý Học tập](https://giaoanpro.com/tro-ly-hoc-tap): Trợ lý AI (Gemini Gem) theo lớp, theo môn, hỗ trợ học sinh tự học miễn phí.
-- [Blog](https://giaoanpro.com/blog): Bài viết về ứng dụng AI trong giáo dục, prompt cho giáo viên.
+- [Miễn phí: Tool, Prompt, Chatbot](https://www.giaoanpro.com/mien-phi): prompt và tài liệu soạn bài dùng ngay.
+- [Danh mục SGK](https://www.giaoanpro.com/danh-muc-sgk): Sách giáo khoa Tiểu học, THCS, THPT miễn phí.
+- [Trợ lý Học tập](https://www.giaoanpro.com/tro-ly-hoc-tap): Trợ lý AI (Gemini Gem) theo lớp, theo môn, hỗ trợ học sinh tự học miễn phí.
+- [Blog](https://www.giaoanpro.com/blog): Bài viết về ứng dụng AI trong giáo dục, prompt cho giáo viên.
 
 ## Thông tin pháp lý
 
-- [Điều khoản dịch vụ](https://giaoanpro.com/dieu-khoan)
-- [Chính sách hoàn tiền](https://giaoanpro.com/chinh-sach-hoan-tien)
+- [Điều khoản dịch vụ](https://www.giaoanpro.com/dieu-khoan)
+- [Chính sách hoàn tiền](https://www.giaoanpro.com/chinh-sach-hoan-tien)
+- [Chính sách bảo mật](https://www.giaoanpro.com/bao-mat)
 
 ## Liên hệ
 

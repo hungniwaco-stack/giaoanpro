@@ -19,7 +19,7 @@ export async function generateMetadata({
   // Google cắt mô tả quanh 160 ký tự — cắt ở ranh giới từ để câu không đứt giữa chừng.
   const description = post && (post.excerpt.length > 160 ? `${post.excerpt.slice(0, 157).replace(/\s+\S*$/, "")}…` : post.excerpt);
   return {
-    title: post ? `${post.title} — Giáo Án Pro` : "Bài viết — Giáo Án Pro",
+    title: post ? `${post.seoTitle ?? post.title} — Giáo Án Pro` : "Bài viết — Giáo Án Pro",
     ...(description ? { description } : {}),
     alternates: { canonical: `/blog/${slug}` },
   };
@@ -39,10 +39,13 @@ export default async function BlogPostPage({
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: { "@type": "Person", name: "Nguyễn Hữu Hùng" },
-    publisher: { "@type": "Organization", name: "Giáo Án Pro" },
+    image: "https://www.giaoanpro.com/opengraph-image",
+    inLanguage: "vi",
+    // Ngày cụ thể kèm múi giờ Việt Nam; giờ 00:00 vì chưa lưu giờ đăng thật.
+    datePublished: `${post.date}T00:00:00+07:00`,
+    dateModified: `${post.modified ?? post.date}T00:00:00+07:00`,
+    author: { "@id": "https://www.giaoanpro.com/#founder" },
+    publisher: { "@id": "https://www.giaoanpro.com/#organization" },
     mainEntityOfPage: `https://www.giaoanpro.com/blog/${post.slug}`,
   };
 
@@ -59,7 +62,11 @@ export default async function BlogPostPage({
             ← Tất cả bài viết
           </Link>
           <p className="mt-4 text-xs text-ink-muted">
-            {post.date} · Tác giả: Nguyễn Hữu Hùng
+            <time dateTime={post.date}>{post.date}</time>
+            {post.modified && post.modified !== post.date && (
+              <> (cập nhật <time dateTime={post.modified}>{post.modified}</time>)</>
+            )}{" "}
+            · Tác giả: Nguyễn Hữu Hùng
           </p>
           <h1 className="mt-1 font-display text-3xl font-bold text-ink">{post.title}</h1>
           <div className="mt-6 space-y-4 text-ink-muted leading-relaxed">
