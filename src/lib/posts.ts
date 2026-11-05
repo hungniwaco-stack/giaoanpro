@@ -15,6 +15,24 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "dung-ai-dung-cach-du-lieu-hoc-sinh",
+    title: "Dùng AI trong giảng dạy: 5 quy tắc về dữ liệu học sinh và trách nhiệm của giáo viên",
+    excerpt: "5 quy tắc thực tế khi dùng AI soạn bài: không nhập thông tin nhận dạng học sinh, biết dữ liệu đi đâu, không đưa đề chưa thi, luôn kiểm tra kết quả và giữ trách nhiệm.",
+    date: "2026-11-05",
+    seoTitle: "Dùng AI trong dạy học: dữ liệu học sinh",
+    category: "blog",
+    content: [
+      "Khi dùng AI để soạn bài, có năm quy tắc nên giữ: không nhập thông tin nhận dạng của học sinh, biết nội dung mình gõ được gửi đi đâu, không đưa lên những tài liệu chưa công khai như đề thi chưa thi, luôn kiểm tra kết quả trước khi dùng, và nhớ rằng người chịu trách nhiệm cuối cùng vẫn là giáo viên. Bài này đi qua từng quy tắc bằng ví dụ cụ thể. Đây là hướng dẫn thực hành, không phải tư vấn pháp lý.",
+      "Quy tắc 1 - Không nhập thông tin nhận dạng học sinh. Họ tên, ngày sinh, địa chỉ, số điện thoại, mã học sinh, ảnh là những thứ không cần thiết để AI giúp bạn soạn nhận xét hay bài tập. Thay vào đó hãy mô tả chung. Nên tránh: \"Viết nhận xét cho em Nguyễn Văn A, lớp 5B, nhà ở xóm X, hay nói chuyện riêng\". Nên viết: \"Viết nhận xét cuối kỳ cho một học sinh lớp 5 có học lực khá, hay nói chuyện riêng trong giờ, đang tiến bộ về chữ viết\". Kết quả vẫn dùng được, và bạn tự điền tên vào bản cuối.",
+      "Quy tắc 2 - Biết dữ liệu của mình đi đâu. Nội dung bạn gõ vào một công cụ AI thường được gửi tới dịch vụ AI của bên thứ ba để xử lý. Với Giáo Án Pro, theo chính sách đã công bố: không cần tạo tài khoản, hệ thống nhận diện trình duyệt bằng một mã ẩn danh lưu trong cookie cùng địa chỉ IP để giới hạn lượt dùng thử (chỉ lưu khoảng 2 ngày); nội dung bạn nhập được gửi tới Google Gemini để tạo kết quả, và khi Gemini tạm không dùng được thì có thể dùng DeepSeek dự phòng; lịch sử giáo án lưu tối đa khoảng 400 ngày để bạn xem lại; tên và trường bạn nhập ở mục Hồ sơ chỉ lưu trên trình duyệt. Với bất kỳ công cụ AI nào khác bạn dùng, hãy đọc chính sách của họ để biết dữ liệu được lưu bao lâu và dùng vào việc gì.",
+      "Quy tắc 3 - Không đưa tài liệu chưa công khai. Đề thi chưa tổ chức, đáp án chưa công bố, bảng điểm cả lớp hay hồ sơ nội bộ của trường không nên dán vào công cụ AI công cộng, vì như quy tắc 2 đã nói, nội dung đó được gửi ra ngoài máy của bạn. Nếu cần AI giúp ra đề, hãy chỉ đưa tên bài, mức độ và số câu, rồi để AI tạo đề mới.",
+      "Quy tắc 4 - Luôn kiểm tra kết quả. Bản AI tạo ra là bản nháp. Khi chạy thử các công cụ của Giáo Án Pro, chúng tôi đã gặp những lỗi như một cụm từ diễn đạt lạ (\"tính từ phụ sang chính\"), phần đáp án bị mất dấu tiếng Việt, hoặc bản nháp nhắc \"Bài 1, Bài 2 trong SGK\" dù chưa được cung cấp sách giáo khoa. Với môn Toán, hãy tự tính lại. Với môn Văn và các môn có trích dẫn, hãy dán văn bản gốc vào và đối chiếu lại. Với thí nghiệm, hãy chạy thử và kiểm tra an toàn trước khi dạy.",
+      "Quy tắc 5 - Giữ trách nhiệm và làm đúng hướng dẫn của nhà trường. Theo Điều 21 Thông tư 15/2026/TT-BGDĐT, kế hoạch bài dạy (giáo án) là hồ sơ của chính giáo viên, nên người đứng tên và chịu trách nhiệm về nội dung là thầy cô, không phải công cụ. Công văn 5208/BGDĐT-GDPT (ngày 7/8/2026) cũng yêu cầu nhà trường có các hoạt động về năng lực số và AI trong năm học 2026-2027, nên việc dùng AI trong trường học đang được khuyến khích có định hướng. Hãy hỏi tổ chuyên môn hoặc ban giám hiệu xem trường bạn có quy định riêng về việc dùng AI và cách ghi nhận hay không.",
+      "Một danh sách ngắn để tự hỏi trước khi bấm gửi: Trong nội dung này có tên hay thông tin nhận dạng học sinh không? Đây có phải tài liệu chưa công khai không? Tôi biết công cụ này lưu dữ liệu bao lâu chưa? Tôi sẽ kiểm tra lại kết quả thế nào? Nếu có câu nào trả lời \"không chắc\", hãy dừng lại và sửa nội dung trước.",
+      "Về Giáo Án Pro: để soạn giáo án, bạn chỉ cần chọn môn, khối lớp và gõ tên bài, không cần nhập tên hay thông tin cá nhân của học sinh. Nếu bạn đính kèm công văn hoặc phụ lục của Sở hay trường, tài liệu đó cũng được gửi tới dịch vụ AI để đọc, nên hãy chỉ đính kèm những tài liệu bạn được phép chia sẻ. Chi tiết nằm trong trang Chính sách bảo mật.",
+    ],
+  },
+  {
     slug: "10-prompt-soan-bai-tieu-hoc-thcs-thpt",
     title: "10 prompt soạn bài cho Tiểu học, THCS, THPT: đã chạy thử từng câu, kèm nhận xét",
     excerpt: "10 prompt soạn bài chia theo Tiểu học, THCS, THPT, đã chạy thử từng câu bằng AI, kèm nhận xét chỗ nào dùng được ngay và chỗ nào thầy cô cần sửa.",
