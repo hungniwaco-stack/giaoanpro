@@ -15,6 +15,25 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "soan-giao-an-thcs-thpt-cong-van-5512-bang-ai",
+    title: "Soạn giáo án THCS, THPT theo Công văn 5512 bằng AI: 6 bước, có ví dụ thật",
+    excerpt: "Cách dùng AI soạn bản nháp giáo án theo khung Phụ lục IV Công văn 5512, kèm một bài Toán lớp 7 đã chạy thật, đã kiểm tra phép tính và nêu năm chỗ cần sửa.",
+    date: "2026-11-12",
+    seoTitle: "Soạn giáo án THCS, THPT theo 5512 bằng AI",
+    category: "mien-phi",
+    content: [
+      "Soạn giáo án THCS, THPT theo Công văn 5512 bằng AI gồm 6 bước: nắm khung Phụ lục IV, nhập đúng môn - lớp - tên bài, thêm trích đoạn sách giáo khoa nếu có, đọc đối chiếu bản nháp với khung, chỉnh theo lớp của mình, rồi xuất file Word để điền thông tin. Bài này đi qua từng bước với một bài Toán lớp 7 đã chạy thật trên công cụ Cấp 2, kèm những chỗ cần sửa.",
+      "Bước 1 - Nắm khung kế hoạch bài dạy. Phụ lục IV của Công văn 5512/BGDĐT-GDTrH (ngày 18/12/2020) gồm: I. Mục tiêu (kiến thức, năng lực, phẩm chất); II. Thiết bị dạy học và học liệu; III. Tiến trình dạy học với bốn hoạt động là mở đầu, hình thành kiến thức mới, luyện tập và vận dụng. Mỗi hoạt động có bốn mục: mục tiêu, nội dung, sản phẩm, tổ chức thực hiện. So sánh chi tiết với khung của Công văn 2345 có trong bài \"Công văn 5512 và 2345 khác nhau thế nào\".",
+      "Bước 2 - Nhập đúng môn, lớp và tên bài. Dùng công cụ Cấp 2 cho THCS hoặc Cấp 3 cho THPT. Chọn môn, khối lớp và gõ tên bài theo sách giáo khoa. Ở ví dụ dưới đây tôi nhập: Toán, lớp 7, \"Cộng, trừ, nhân, chia số hữu tỉ\". Đây là tên tôi tự đặt để chạy thử, không phải tên chính xác của một bài trong sách, nên bạn hãy gõ đúng tên bài của mình.",
+      "Bước 3 - Dán trích đoạn sách giáo khoa nếu có. Công cụ có ô \"Trích đoạn SGK (tuỳ chọn)\". Khi bạn để trống, công cụ được dặn không viện dẫn số bài tập hay hoạt động cụ thể \"trong SGK\" và tự nêu nội dung bài tập ngay trong giáo án. Dán trích đoạn thật vẫn cho kết quả sát sách hơn, nhất là với môn Ngữ văn hoặc bài có ngữ liệu riêng.",
+      "Bước 4 - Đọc đối chiếu bản nháp với khung. Bản nháp trong ví dụ có thời lượng 2 tiết, mục tiêu chia ba nhóm, thiết bị dạy học và đúng bốn hoạt động, mỗi hoạt động đủ bốn mục. Hoạt động 1 đưa tình huống chênh lệch nhiệt độ (-1,5 độ C tăng thêm 3,2 độ C). Hoạt động 2 cho học sinh tính ba ví dụ rồi rút ra quy tắc. Hoạt động 3 là phiếu học tập có hai bài kèm lời giải. Hoạt động 4 là bài toán tiền gửi tiết kiệm lãi suất 6,5% một năm. Tôi đã tự kiểm tra các phép tính và đều đúng, ví dụ (-2/3) + 1/4 = -5/12, (3/7) ÷ (-9/14) = -2/3, (-5/12) ÷ (15/4) = -1/9, và 50 + 3,25 = 53,25 triệu đồng.",
+      "Bước 5 - Chỉnh theo lớp của mình. Tôi thấy năm chỗ cần sửa. Một: thời lượng ghi 2 tiết nhưng các khoảng thời gian được nêu trong bốn hoạt động (2, 5, 10 và 5 phút) cộng lại chỉ khoảng 22 phút, nên thầy cô cần bổ sung hoặc chia lại thời gian. Hai: hoạt động vận dụng được tổ chức ngay trên lớp trong 5 phút, trong khi ghi chú của Phụ lục IV cho biết hoạt động vận dụng chủ yếu giao cho học sinh làm ngoài lớp. Ba: phần năng lực viết \"tư duy và luận toán học\", thiếu chữ \"lập\" so với tên năng lực \"tư duy và lập luận toán học\". Bốn: danh sách thiết bị ghi cả \"giáo án\" như một đồ dùng, nên xoá đi. Năm: mục tổ chức thực hiện được viết gọn, chưa tách thành bốn bước chuyển giao nhiệm vụ, thực hiện nhiệm vụ, báo cáo và thảo luận, kết luận như ghi chú của Phụ lục IV; thầy cô tự bổ sung nếu tổ chuyên môn yêu cầu.",
+      "Bước 6 - Xuất Word và điền thông tin. File Word có dòng trường và giáo viên (lấy từ mục Hồ sơ nếu bạn đã nhập), ngày soạn, ngày dạy, tổng số tiết và tiết. Phần tổ chuyên môn và chữ ký bạn tự điền. Công cụ không viết thay phần này của bạn.",
+      "Một lưu ý quan trọng: AI chỉ tạo bản nháp. Nội dung, số liệu và cách tổ chức đều cần thầy cô đọc lại và chỉnh theo học sinh của mình, và Sở hoặc trường có thể có yêu cầu riêng. Nếu trường bạn có mẫu riêng, hãy đính kèm công văn hoặc phụ lục đó trong mục Cấu Hình Cá Nhân để AI bám theo.",
+      "Giáo Án Pro có công cụ Cấp 2 (THCS) và Cấp 3 (THPT) soạn theo khung Công văn 5512 như trên. Mỗi chức năng có 3 lượt dùng thử miễn phí, không cần tạo tài khoản.",
+    ],
+  },
+  {
     slug: "cong-van-5512-va-2345-khac-nhau-the-nao",
     title: "Công văn 5512 và 2345 khác nhau thế nào? So sánh khung kế hoạch bài dạy",
     excerpt: "Công văn 2345 dùng cho Tiểu học, 5512 dùng cho THCS và THPT. Bài so sánh từng phần khung kế hoạch bài dạy của hai văn bản và nói rõ nguồn mà mỗi phần được đối chiếu.",
