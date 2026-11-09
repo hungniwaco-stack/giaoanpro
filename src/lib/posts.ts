@@ -15,6 +15,24 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "cong-van-5512-va-2345-khac-nhau-the-nao",
+    title: "Công văn 5512 và 2345 khác nhau thế nào? So sánh khung kế hoạch bài dạy",
+    excerpt: "Công văn 2345 dùng cho Tiểu học, 5512 dùng cho THCS và THPT. Bài so sánh từng phần khung kế hoạch bài dạy của hai văn bản và nói rõ nguồn mà mỗi phần được đối chiếu.",
+    date: "2026-11-10",
+    seoTitle: "Công văn 5512 và 2345 khác nhau thế nào",
+    category: "blog",
+    content: [
+      "Khác biệt chính: Công văn 2345/BGDĐT-GDTH (ngày 7/6/2021) hướng dẫn khung kế hoạch bài dạy cho giáo viên Tiểu học, còn Công văn 5512/BGDĐT-GDTrH (ngày 18/12/2020) hướng dẫn cho giáo viên THCS và THPT. Hai khung giống nhau ở bốn hoạt động dạy học, nhưng 5512 chi tiết hơn: mỗi hoạt động có bốn phần (mục tiêu, nội dung, sản phẩm, tổ chức thực hiện), còn 2345 có thêm mục điều chỉnh sau bài dạy. Bài này so sánh từng phần.",
+      "Về nguồn: phần Công văn 5512 được đối chiếu trực tiếp với Phụ lục IV \"Khung kế hoạch bài dạy\", bản có chữ ký số của Bộ Giáo dục và Đào tạo ngày 18/12/2020. Phần Công văn 2345 (Phụ lục 3) được đối chiếu qua bản đăng lại trên hoatieu.vn, chưa phải tệp gốc của Bộ, nên bạn nên tải bản gốc để chắc chắn khi cần trích dẫn.",
+      "Khung của Công văn 5512 (THCS, THPT). Phần đầu ghi trường, tổ, họ tên giáo viên, tên bài dạy, môn học hoặc hoạt động giáo dục, lớp và thời gian thực hiện (số tiết). Sau đó có ba phần lớn: I. Mục tiêu, chia thành ba nhóm là kiến thức, năng lực và phẩm chất; II. Thiết bị dạy học và học liệu; III. Tiến trình dạy học gồm bốn hoạt động: xác định vấn đề hoặc nhiệm vụ học tập (mở đầu), hình thành kiến thức mới, luyện tập, và vận dụng. Mỗi hoạt động đều có đủ bốn mục: a) Mục tiêu, b) Nội dung, c) Sản phẩm, d) Tổ chức thực hiện.",
+      "Phần ghi chú cuối Phụ lục IV có vài điểm đáng chú ý. Một bài dạy có thể kéo dài nhiều tiết. Hoạt động vận dụng chỉ thực hiện với những bài hoặc nhóm bài có nội dung phù hợp và chủ yếu giao cho học sinh làm ngoài lớp. Kế hoạch bài dạy không cần nêu cụ thể lời nói của giáo viên và học sinh, mà tập trung mô tả hoạt động. Và việc tổ chức mỗi hoạt động học nên đi qua bốn bước: chuyển giao nhiệm vụ, thực hiện nhiệm vụ, báo cáo và thảo luận, kết luận và nhận định.",
+      "Khung của Công văn 2345 (Tiểu học), theo Phụ lục 3. Phần đầu ghi môn học hoặc hoạt động giáo dục, lớp, tên bài học, số tiết và thời gian thực hiện. Nội dung gồm bốn mục: 1. Yêu cầu cần đạt (học sinh làm được gì, vận dụng được gì, hình thành phẩm chất và năng lực nào); 2. Đồ dùng dạy học; 3. Các hoạt động dạy học chủ yếu gồm mở đầu, hình thành kiến thức mới, luyện tập thực hành và vận dụng trải nghiệm; 4. Điều chỉnh sau bài dạy. Hoạt động hình thành kiến thức mới chỉ áp dụng với bài hình thành kiến thức mới, hoạt động vận dụng và mục điều chỉnh sau bài dạy ghi \"nếu có\".",
+      "Đặt cạnh nhau, có năm điểm khác. Một: mục tiêu của 5512 chia ba nhóm kiến thức, năng lực, phẩm chất, còn 2345 dùng một mục \"yêu cầu cần đạt\". Hai: 5512 gọi là \"thiết bị dạy học và học liệu\", 2345 gọi là \"đồ dùng dạy học\". Ba: mỗi hoạt động trong 5512 được tách thành mục tiêu, nội dung, sản phẩm và tổ chức thực hiện, còn 2345 không quy định tách như vậy. Bốn: 5512 hướng dẫn bốn bước tổ chức hoạt động học, 2345 không có phần này. Năm: chỉ 2345 có mục điều chỉnh sau bài dạy. Phần đầu của 5512 còn có tên trường, tổ và họ tên giáo viên.",
+      "Hai công văn này còn hiệu lực không? Thông tư 15/2026/TT-BGDĐT (hiệu lực từ 10/5/2026) thay thế các thông tư Điều lệ trường học cũ mà hai công văn này dựa vào, nhưng điều khoản thay thế của thông tư không nêu tên Công văn 5512 hay 2345. Trang văn bản của Bộ Giáo dục và Đào tạo ghi Công văn 2345 còn hiệu lực. Chúng tôi chưa tìm thấy văn bản nào bãi bỏ cả hai, nhưng đó chỉ là chưa thấy, không phải kết luận pháp lý. Cũng theo Điều 21 của Thông tư 15, giáo án là hồ sơ của giáo viên nhưng thông tư không quy định mẫu, nên Sở hoặc trường vẫn có thể có hướng dẫn riêng. Hãy hỏi tổ chuyên môn trước khi nộp.",
+      "Giáo Án Pro bám theo hai khung này. Công cụ Cấp 1 soạn theo Công văn 2345. Công cụ Cấp 2 và Cấp 3 soạn theo Công văn 5512: mục tiêu chia ba nhóm, có thiết bị dạy học, bốn hoạt động, mỗi hoạt động đủ mục tiêu, nội dung, sản phẩm và tổ chức thực hiện. Đây là bản nháp, thầy cô cần đọc lại và chỉnh theo lớp của mình. Mỗi chức năng có 3 lượt dùng thử miễn phí, không cần tạo tài khoản.",
+    ],
+  },
+  {
     slug: "dung-ai-dung-cach-du-lieu-hoc-sinh",
     title: "Dùng AI trong giảng dạy: 5 quy tắc về dữ liệu học sinh và trách nhiệm của giáo viên",
     excerpt: "5 quy tắc thực tế khi dùng AI soạn bài: không nhập thông tin nhận dạng học sinh, biết dữ liệu đi đâu, không đưa đề chưa thi, luôn kiểm tra kết quả và giữ trách nhiệm.",
