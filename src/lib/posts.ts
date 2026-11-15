@@ -15,6 +15,26 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "giu-dau-an-ca-nhan-khi-dung-ai-soan-bai",
+    title: "Giữ dấu ấn cá nhân khi dùng AI soạn bài: 4 cách, kèm một thử nghiệm so sánh",
+    excerpt: "Cùng một bài KHTN lớp 8, hai cách hỏi AI: một câu chung chung và một câu có bối cảnh lớp. So sánh kết quả, 4 cách giữ cách dạy của mình và những lỗi cần soát.",
+    date: "2026-11-19",
+    seoTitle: "Giữ dấu ấn cá nhân khi dùng AI soạn bài",
+    category: "blog",
+    content: [
+      "Để bài soạn bằng AI vẫn mang dấu ấn của mình, có bốn cách: đưa bối cảnh lớp thật vào câu hỏi, nói rõ cách dạy quen thuộc của mình, nhờ AI sửa một bản của chính bạn thay vì viết mới, và tự viết lại phần mở bài, kết bài bằng lời của mình. Bài này thử hai cách hỏi trên cùng một bài rồi so sánh, kèm các lỗi cần soát trước khi dùng. Đây là hướng dẫn thực hành, không phải quy định.",
+      "Vì sao chuyện này đáng quan tâm: theo Điều 21 Thông tư 15/2026/TT-BGDĐT, kế hoạch bài dạy (giáo án) là hồ sơ của chính giáo viên. Một bản nháp AI viết chung chung, đem nộp nguyên văn, là bản mà ai dùng cùng câu hỏi cũng nhận được gần giống. Phần bạn thêm vào mới là phần khiến nó thành bài của bạn.",
+      "Thử nghiệm. Chúng tôi chạy cùng một yêu cầu qua cùng mô hình AI mà khung trò chuyện Cấp 2 của Giáo Án Pro đang dùng, với bài Khối lượng riêng, KHTN lớp 8, xin gợi ý hoạt động mở đầu. Cách 1 là câu chung chung. Cách 2 thêm năm thông tin về một lớp giả định do chúng tôi tự đặt ra để thử: 38 học sinh ở xã vùng nông thôn, phòng học không có máy chiếu, giáo viên hay mở bài bằng câu hỏi gây tranh luận, học sinh quen đi chợ cùng ông bà, hai em đọc chậm cần nhiệm vụ ngắn có hình. Lớp này không có thật, nên đừng coi đây là kết quả đo trên lớp học.",
+      "Kết quả cách 1. AI đưa ra ba hoạt động xếp song song: hai hộp quà cùng kích thước một nặng một nhẹ, thả đá và nút gỗ vào nước, và câu đố 1 kg sắt với 1 kg bông. Đúng chuyên môn, dùng được, nhưng ai hỏi cũng nhận được bản này, và nó không biết lớp bạn có đồ dùng gì.",
+      "Kết quả cách 2. AI đưa một hoạt động duy nhất, đúng 5 phút, đi từ việc đi chợ: so 1 kg gạo với chai dầu ăn 1 lít, chia bảng thành ba cột để học sinh biểu quyết, không cần máy chiếu, và dán nhãn có hình để hai em đọc chậm tham gia bằng cách chỉ vào hình. Hầu hết chi tiết đưa vào đều xuất hiện trong bản trả lời (riêng sĩ số 38 em không được nhắc tới). Đó là điều cách 1 không thể làm được.",
+      "Nhưng cách 2 không an toàn hơn về chuyên môn, và đây là phần quan trọng nhất. Chúng tôi đã đọc cả hai bản và tìm thấy lỗi ở cả hai. Ở cách 2, câu chốt nói gạo và dầu ăn \"đều tràn đầy một vật chứa như nhau\", trong khi 1 kg gạo và 1 lít dầu không chiếm cùng thể tích, nên câu này sai và có thể làm học sinh hiểu lệch về khối lượng riêng. Ở cách 1, \"viên đá\" thả vào cốc nước rất dễ hiểu là đá lạnh, mà đá lạnh thì nổi, trái với điều bản nháp muốn nói. Ngoài ra cả hai bản đều dài hơn giới hạn 1.200 ký tự chúng tôi yêu cầu (1.394 và 1.318 ký tự). Con số chai dầu 1 lít nặng khoảng 0,9 kg là do AI nêu, chúng tôi chưa cân thực tế.",
+      "Bốn cách giữ dấu ấn cá nhân, rút từ thử nghiệm trên. Một: đưa bối cảnh thật của lớp vào câu hỏi (sĩ số, thiết bị, thời lượng, học sinh cần hỗ trợ). Hai: nêu cách dạy quen thuộc của bạn, ví dụ mở bài bằng câu hỏi tranh luận, hoặc luôn chia nhóm, để AI viết theo hướng đó. Ba: nếu bạn đã có một bản soạn cũ ổn, dán một phần vào và nhờ AI chỉnh theo bài mới thay vì viết lại từ đầu; cách này chúng tôi chưa chạy thử nên chưa có nhận xét. Bốn: tự viết lại câu mở bài và câu kết bằng lời của mình, vì đó là chỗ học sinh nghe giọng của bạn.",
+      "Một lưu ý về công cụ: khung trò chuyện của Giáo Án Pro giới hạn 2.000 ký tự mỗi tin nhắn, và các câu trả lời của AI ở lượt trước cũng được tính khi gửi tiếp. Vì vậy hãy đưa bối cảnh ngắn gọn và dặn AI trả lời dưới 1.200 ký tự, như trong thử nghiệm trên.",
+      "Một danh sách ngắn để soát trước khi dùng: Chi tiết nào AI thêm mà tôi không đưa vào? Phép tính, số liệu, hiện tượng có đúng không, tôi đã tự kiểm tra chưa? Có từ nào hiểu được theo hai nghĩa không? Câu mở bài và câu kết đã là lời của tôi chưa? Nếu có chỗ chưa chắc, hãy sửa trước khi đưa vào giáo án. Kết quả của AI luôn là bản nháp, người chịu trách nhiệm về nội dung vẫn là giáo viên.",
+      "Giáo Án Pro có khung trò chuyện cho từng cấp để bạn hỏi như trên, và công cụ soạn giáo án theo Công văn 2345 (Tiểu học) hoặc 5512 (THCS, THPT) có ô để dán trích đoạn sách giáo khoa. Mỗi chức năng có 3 lượt dùng thử miễn phí, không cần tạo tài khoản. Kết quả cuối cùng vẫn cần thầy cô đọc lại và chỉnh.",
+    ],
+  },
+  {
     slug: "6-prompt-ra-de-kiem-tra-theo-ma-tran-dac-ta",
     title: "6 prompt ra đề kiểm tra theo ma trận và bản đặc tả: đã chạy thử, kèm nhận xét",
     excerpt: "6 prompt đi theo một quy trình: ma trận, bản đặc tả, câu hỏi, tự luận kèm chấm, đối chiếu đề với ma trận. Đã chạy thử từng bước, kiểm lại đáp án và nêu chỗ cần sửa.",
